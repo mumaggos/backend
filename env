@@ -1,0 +1,24 @@
+SECRET_KEY=your_super_secret_key_here_change_in_production
+DATABASE_URL=sqlite:///casinofound.db
+INFURA_API_KEY=682ccbc62ca74263a6358998b7c9e628
+POLYGON_RPC_URL=https://polygon-mainnet.infura.io/v3/682ccbc62ca74263a6358998b7c9e628
+WALLETCONNECT_PROJECT_ID=6175ffe549ad2465e15f2fb66c70c469
+EMAILJS_SERVICE_ID=service_fuhff9e
+
+# Endereços dos contratos
+CFD_TOKEN_ADDRESS=0x7fE9eE1975263998D7BfD7ed46CAD44Ee62A63bE
+ICO_PHASE1_ADDRESS=0x8008A571414ebAF2f965a5a8d34D78cEfa8BD8bD
+AFFILIATE_MANAGER_ADDRESS=0x7fE9eE1975263998D7BfD7ed46CAD44Ee62A63bE
+
+# Configurações de email (opcional, para envio direto via SMTP, se não usar EmailJS)
+# SMTP_SERVER=smtp.gmail.com
+# SMTP_PORT=587
+# EMAIL_USER=your_email@gmail.com
+# EMAIL_PASSWORD=your_app_password
+
+# Chave privada da carteira administrativa (NUNCA COMPARTILHE PUBLICAMENTE)
+# Esta chave é necessária para o backend assinar transações reais na blockchain (ex: payAffiliate).
+# Você DEVE adicionar esta variável de ambiente no seu ambiente de deploy (Render, Railway, etc.)
+# ADMIN_PRIVATE_KEY=your_private_key_here
+
+
