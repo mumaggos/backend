@@ -91,7 +91,7 @@ with app.app_context():
 
 # Rotas da API
 
-@app.route(\"/health\", methods=[\"GET\"])
+@app.route("/health", methods=["GET"])
 def health_check():
     try:
         w3_connected = w3.is_connected()
