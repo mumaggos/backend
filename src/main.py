@@ -82,7 +82,7 @@ class Transaction(db.Model):
     amount = db.Column(db.Float, nullable=False)
     currency = db.Column(db.String(10), nullable=False)
     tx_hash = db.Column(db.String(66))
-    status = db.Column(db.String(20), default=\'pending\')  # pending, confirmed, failed
+    status = db.Column(db.String(20), default='pending')  # pending, confirmed, failed
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
 # Criar tabelas
